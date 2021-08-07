@@ -1,0 +1,19 @@
+#head{
+    color: red;
+    font-family: 'Dancing Script', cursive;
+}
+
+.cont{
+    color: rgb(102, 255, 0);
+    font-family: Lucida;
+}
+
+body{
+    background-color: black;
+}
+
+#inp{
+    color: blanchedalmond;
+    text-decoration: line-through;
+    font-family: 'Dancing Script', cursive;
+}

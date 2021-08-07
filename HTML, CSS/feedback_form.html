@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <link rel="stylesheet" href="feedback_form.css">
+        <title>Feedback Form</title>
+
+    </head>
+    <body>
+        
+        <nav class="navbar navbar-dark bg-primary">
+            
+
+            <div class="pl-2">
+            <a href="link" class="navbar-brand"><img src="django.png" width="80" height="80" alt="" >MyCompany</a>
+            </div>
+            <div class="x">
+            <ul class="navbar-nav">
+                <li class="nav-item"><a href="link" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="link" class="nav-link">Pricing</a></li>
+                <li class="nav-item"><a href="link" class="nav-link">About Us</a></li>
+
+            </ul>
+            </div>
+            
+        
+
+        </nav>
+       
+
+
+
+
+
+        <div class="container">
+        <h1>Hotel Feedback Form</h1>
+        <form method="get">
+            
+            <br><br>
+            <h3>Are you from USA?</h3>
+            
+            <label for="usay">Yes</label>
+            <input id="usay" type="radio" name="usach" value="yes">
+            
+            <label for="usan">No</label>
+            <input type="radio" name="usach" id="usan" value="no">
+            <br><br>
+            <h3>Select the number of stars you want to rate with:</h3>
+            <select class="form-control" name="stars">
+                
+                <option value="great">3</option>
+                <option value="okay">2</option>
+                <option value="bad">1</option>
+            </select>
+            <br><br>
+            <label for="ran">How much did you like this website?</label>
+            <input type="range" id="ran" class="form-control-range">
+            <br><br>
+            <h3>Any other feedback?</h3>
+            <textarea name="ta" id="" cols="30" rows="10" placeholder="Enter your feedback here."></textarea>
+        
+
+
+            <br><br>
+            <input class="btn btn-success btn-lg" disabled="disabled" type="submit" name="sub">
+            <input class="btn btn-success btn-lg" type="submit" name="Submit">
+            <br><br>
+
+        </form>
+        <div class=" jumbotron container">
+            <h1>Hello World</h1>
+             <p>This is the paragraph.</p>
+            <button class="btn btn-danger">Click</button>
+
+        </div>
+        <div class="alert alert-primary container" role="alert">An Alert!</div>
+        
+        </div>   
+    </body>
+</html>

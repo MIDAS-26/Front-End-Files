@@ -1,0 +1,33 @@
+h1{
+    color: rgb(65, 68, 255);
+    font-family: sans-serif;
+}
+
+h2{
+    color: rgb(136, 255, 0);
+}
+
+h3{
+    color: red;
+}
+
+body{
+    background-color: black;
+    color: yellow;
+    
+}
+
+ol{
+    color: orange;
+}
+
+div{
+    border: 8px double rgb(255, 0, 255);
+    background-color: rgb(134, 134, 134);
+}
+
+span{
+    background-color: red;
+    font-family: monospace;
+
+}
